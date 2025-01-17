@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Learners</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="loader-content">
+            <h1>Welcome to Go Learners</h1>
+            <div class="spinner"></div>
+        </div>
+    </div>
+    
+    <div id="main-content" style="display: none;">
+        <nav>
+            <div class="nav-img">
+                <img src="./Assets/Go_Learners_Logo-removebg-preview.png" alt="Go Learners">
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Courses</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="nav-button">
+                <button class="login-btn" id="login">Login</button>
+                <button class="signup-btn">Signup</button>
+            </div>
+        </nav>
+    
+        <section id="hero-section">
+            <img src="./Assets/image 1.png" alt="" class="hero-image">
+            <div class="hero-content">
+                <h1 class="hero-text">
+                Find Over A Thousand Courses, <br> Learn And Become a Pro In Your <br> Field
+                </h1>
+                <p>Discover thousands of free courses to help you with that level of <br> professionalism you desire.</p>
+        
+                <div class="search-course">
+                    <input type="text" placeholder="Search your Course">
+                        <button class="search">Search</button>
+                </div>
+            </div>
+        </section>
+    
+        <section id="stats">
+            <div class="special-courses">
+                <i class="fa-regular fa-bookmark"></i>
+                <div class="text-content">
+                    <p class="special-courses-number">25,000+</p>
+                    <p>Special Courses</p>
+                </div>
+            </div>
+            
+            <div class="enrol-students">
+                <i class="fa-solid fa-user-graduate"></i>
+                <div class="text-content">
+                    <p class="special-courses-number">455,000+</p>
+                    <p>Enrol Students</p>
+                </div>
+            </div>
+            
+            <div class="pro">
+                <i class="fa-solid fa-award"></i>
+                <div class="text-content">
+                    <p class="special-courses-number">5,000+</p>
+                    <p>Course Professionals</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="popular-courses">
+            <div class="popular-courses">
+                <div class="popular-courses-name">
+                    <p>Popular Courses</p>
+                    <div class="line"></div>
+                </div>
+                <button>All Courses</button>
+            </div>
+        </section>
+    
+        <div class="cards">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    
+        <section id="get-started" class="shared-section">
+            <div class="shared-image get-started-image"></div>
+            <div class="shared-text">
+                <p class="bigger-text">Find your interested <br> courses that suit your <br> time and pocket</p>
+                <div class="line-div"></div>
+                <p class="simple-text">Get your courses at pocket-friendly prices <br> and study at your own pace.</p>
+                <button class="shared-btn get-started-btn">Get Started</button>
+            </div>
+        </section>    
+    
+        <section id="become-instructor" class="shared-section">
+            <div class="shared-text">
+                <p class="bigger-text">Share your expertise <br> and inspire learners <br> around the world</p>
+                <div class="line-div"></div>
+                <p class="simple-text">Create courses, reach global audiences, <br> and earn while sharing your knowledge.</p>
+                <button class="shared-btn become-instructor-btn">Become an Instructor</button>
+            </div>
+            <div class="shared-image instructor-image"></div>
+        </section>
+        
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; Go Learners 2025</p>
+                </div>
+    
+                <div class="footer-right">
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("main-content").style.display = "block";
+        }, 5000); 
+    });
+</script>
+
+</html>
