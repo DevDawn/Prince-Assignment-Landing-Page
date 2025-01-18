@@ -1,0 +1,1 @@
+const displaySearchPopup = "mobile-nav";
